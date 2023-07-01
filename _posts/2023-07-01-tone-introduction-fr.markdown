@@ -21,7 +21,7 @@ Aujourd'hui, Northstar accueille en moyenne un peu plus de 200 joueurs concurren
 A cause de sa nature décentralisée, le projet Northstar n'implémente pas de fonctionnalités permettant de sauvegarder les données relatives aux parties de jeu.
 
 Tone est un projet qui vise à collecter des données durant les parties de jeu, permettant alors à chaque joueur qui de visualiser ses statistiques.
-<object data="/assets/images/diagram-tone-simple-fr.svg" type="image/svg+xml" class="mailicon"></object>
+<object data="{{site.baseurl}}/assets/images/diagram-tone-simple-fr.svg" type="image/svg+xml" class="mailicon"></object>
 
 [jekyll-docs]:      https://jekyllrb.com/docs/home
 [jekyll-gh]:        https://github.com/jekyll/jekyll
