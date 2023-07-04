@@ -25,7 +25,7 @@ Celui ci se sépare en trois majeures parties :
 * Collecte de données
 * Sauvegarde et traitement des données
 * Affichage des données
-<object data="{{site.baseurl}}/assets/images/diagram-tone-simple-fr.svg" type="image/svg+xml" class="mailicon"></object>
+<object style="max-width:100%" data="{{site.baseurl}}/assets/images/diagram-tone-simple-fr.svg" type="image/svg+xml" class="mailicon"></object>
 
 Le projet a été lancé le 15 mars 2023. A l'heure où vous lisez cet article, plus de <span id=toneKills>8</span> millions de `kills` ont été enregistrés dans la base de données.
 
@@ -36,8 +36,6 @@ Le projet a été lancé le 15 mars 2023. A l'heure où vous lisez cet article, 
 });
     
 </script>
-[jekyll-docs]:      https://jekyllrb.com/docs/home
-[jekyll-gh]:        https://github.com/jekyll/jekyll
-[jekyll-talk]:      https://talk.jekyllrb.com/
+
 [harmony-redtape]:  https://harmony.tf/redtape-response/
 [northstar]:        https://northstar.tf/
