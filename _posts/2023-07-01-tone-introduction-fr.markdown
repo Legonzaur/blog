@@ -1,8 +1,9 @@
 ---
 title:  "Introduction à Tone"
-date:   2023-07-01 13:50:27 -0500
 categories: projets tone
+permalink: /tone-introduction/
 tags: data_analysis videogame_modding northstar titanfall_2
+lang: fr
 ---
 Tone est un projet qui me tient à coeur, car il lie à la fois Titanfall 2, mon jeu de tir à la première personne multijoueur favori, et plusieurs domaines du développement informatique à la fois.
 
@@ -17,7 +18,7 @@ Il a été sujet à [de nombreux débats][harmony-redtape] entre 2020 et 2021. D
 
 Aujourd'hui, Northstar accueille en moyenne un peu plus de 200 joueurs concurrents sur tous les serveurs communautaires confondus.
 
-# Qu'est ce qu'est Tone ? 
+### Qu'est ce qu'est Tone ? 
 A cause de sa nature décentralisée, le projet Northstar n'implémente pas de fonctionnalités permettant de sauvegarder les données relatives aux parties de jeu.
 
 Tone est un projet qui vise à collecter des données durant les parties de jeu, permettant alors à chaque joueur de visualiser ses statistiques.

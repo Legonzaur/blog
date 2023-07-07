@@ -80,7 +80,12 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/images/avatar.png
+
+languages: ["en", "fr"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css","public"]
+parallel_localization: true
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -167,6 +172,7 @@ defaults:
       swcache: true
 
 sass:
+  sourcemap: never
   style: compressed
 
 compress_html:
@@ -179,8 +185,8 @@ compress_html:
     envs: [development]
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
+  - "Gemfile"
+  - "Gemfile.lock"
   - tools
   - README.md
   - CHANGELOG.md
