@@ -1,38 +1,35 @@
 ---
-title:  "Introduction à Tone"
+title:  "Tone Introduction"
 categories: projets tone
 permalink: /tone-introduction/
 tags: data_analysis videogame_modding northstar titanfall_2
 lang: en
 ---
+Because Tone links both Titanfall 2, my favourite FPS game and multiple domains of IT development, this project is close to my heart.
 
-ENGLISH ARTICLE
-
-
-Tone est un projet qui me tient à coeur, car il lie à la fois Titanfall 2, mon jeu de tir à la première personne multijoueur favori, et plusieurs domaines du développement informatique à la fois.
-
-Avant de le présenter, voici une brève une introduction à son contexte.
+Before presenting it, here is a brief introduction of its context.
 ### Titanfall 2
-Titanfall 2 est un jeu de tir nerveux à la premiere personne sorti en 2016, développé par Respawn, publié par EA.
+Titanfall 2 is a first person shooter released in 2016, developped by Respawn and published by EA.
 
-Il a été sujet à [de nombreux débats][harmony-redtape] entre 2020 et 2021. Durant cette période, des failles du jeu et des attaques étaient lancées sur les seveurs du jeu, les rendant inaccessibles pendant plusieurs mois. 
+It has been subject of multiple [multiple dramas][harmony-redtape] around 2020. During this period, game hacks and security flaws has been exploited during multiple months, making the game serverse unplayable. 
 
 ### Northstar 
-[Northstar][northstar] est un projet maintenant devenu communautaire qui a vu le jour suite aux serveurs du jeu devenus inaccessibles. Celui ci permet à n'importe qui d'héberger ses propres serveurs de jeu.
+[Northstar][northstar] is a community project that was born because of the inaccessibility of the official Titanfall2 servers. Northstar allows anyone to host their own game servers.
 
-Aujourd'hui, Northstar accueille en moyenne un peu plus de 200 joueurs concurrents sur tous les serveurs communautaires confondus.
+Today, Northstar hosts around 200 players in all community servers
 
-### Qu'est ce qu'est Tone ? 
-A cause de sa nature décentralisée, le projet Northstar n'implémente pas de fonctionnalités permettant de sauvegarder les données relatives aux parties de jeu.
+### What is Tone ? 
+Because of its decentralized nature, Northstar doesn't implements saving statistics of the games.
 
-Tone est un projet qui vise à collecter des données durant les parties de jeu, permettant alors à chaque joueur de visualiser ses statistiques.
-Celui ci se sépare en trois majeures parties : 
-* Collecte de données
-* Sauvegarde et traitement des données
-* Affichage des données
-<object style="max-width:100%" data="{{site.baseurl}}/assets/images/diagram-tone-simple-fr.svg" type="image/svg+xml" class="mailicon"></object>
+Tone aims to collect statistics from the games, allowing every player to visualize them.
+It is split into three major parts : 
 
-Le projet a été lancé le 15 mars 2023. A l'heure où vous lisez cet article, plus de <span id=toneKills>8</span> millions de `kills` ont été enregistrés dans la base de données.
+* Data gathering
+* Data backup and processing
+* Data display
+<object style="max-width:100%" data="{{site.baseurl}}/assets/images/diagram-tone-simple-en.svg" type="image/svg+xml" class="mailicon"></object>
+
+The project has been created the 15 march 2023. At the moment you read this article, more than <span id=toneKills>8</span> million `kills` have been recorded in the database.
 
 <script type="application/javascript">
     window.addEventListener('DOMContentLoaded', async () => {
