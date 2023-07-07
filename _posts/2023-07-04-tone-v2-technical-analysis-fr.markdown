@@ -1,5 +1,5 @@
 ---
-title:  "Tone v2 : présentation technique"
+title:  "Présentation technique de Tone"
 categories: projets tone
 permalink: /tone-technical/
 tags: data_analysis videogame_modding northstar titanfall_2 technical
@@ -65,11 +65,11 @@ Le diagramme suivant est un exemple de ce à quoi pourra ressembler la base de d
 ![Tone v3 diagram](/assets/images/Tone-v3-model.png)
 
 ## Réferences
-- [Okvdai Github profile][Okvdai]
-- [Lars Github profile][Lars]
-- [Tone Github org](https://github.com/ToneAPI)
-- [Northstar Github org](https://github.com/R2Northstar)
-- [Northstar HTTP documentation](https://r2northstar.readthedocs.io/en/latest/reference/northstar/httprequests.html)
+- [Profil Github de Okvdai][Okvdai]
+- [Profil Github de Lars][Lars]
+- [Organisation Github de Tone](https://github.com/ToneAPI)
+- [Organisation Github de Northstar](https://github.com/R2Northstar)
+- [Documentation HTTP de Northstar](https://r2northstar.readthedocs.io/en/latest/reference/northstar/httprequests.html)
 
 - [How I Have Set Up a Cost-Effective Modern Data Stack for a Charity - Marie Lestavel](https://medium.com/@marielestavel/how-i-have-set-up-a-cost-effective-modern-data-stack-for-a-charity-3fe7e7c9162)
 
