@@ -1,5 +1,8 @@
 #  The contact options.
-
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
+  
 - type: github
   icon: "fab fa-github"
 
@@ -10,9 +13,9 @@
 #   icon: "fas fa-envelope"
 #   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: bandcamp
+  icon: 'fab fa-bandcamp'
+  url: 'https://bandcamp.com/legonzaur'
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
