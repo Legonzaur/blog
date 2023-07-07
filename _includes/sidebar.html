@@ -48,6 +48,22 @@
     <!-- ul.nav.flex-column -->
   
     <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+        <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
+        {% for tongue in site.languages %}
+            <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >
+                {% case tongue %}
+                    {% when "en" %}
+                        🇬🇧
+                    {% when "fr" %}
+                        🇫🇷
+                    {% else %}
+                        {{ tongue }}
+                {% endcase %}
+            </a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+        {% endfor %}
+    </div>
+
+    <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
       {% unless site.theme_mode %}
         <button class="mode-toggle btn" aria-label="Switch Mode">
           <i class="fas fa-adjust"></i>
