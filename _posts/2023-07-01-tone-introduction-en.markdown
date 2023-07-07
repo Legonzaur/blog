@@ -9,9 +9,9 @@ Because Tone links both Titanfall 2, my favourite FPS game and multiple domains 
 
 Before presenting it, here is a brief introduction of its context.
 ### Titanfall 2
-Titanfall 2 is a first person shooter released in 2016, developped by Respawn and published by EA.
+Titanfall 2 is a first person shooter released in 2016, developed by Respawn and published by EA.
 
-It has been subject of multiple [multiple dramas][harmony-redtape] around 2020. During this period, game hacks and security flaws has been exploited during multiple months, making the game serverse unplayable. 
+It has been subject of [multiple dramas][harmony-redtape] around 2020. During this period, game hacks and security flaws has been exploited during multiple months, making the game servers unplayable. 
 
 ### Northstar 
 [Northstar][northstar] is a community project that was born because of the inaccessibility of the official Titanfall2 servers. Northstar allows anyone to host their own game servers.
