@@ -5,11 +5,11 @@ permalink: /tone-technical/
 tags: data_analysis videogame_modding northstar titanfall_2 technical
 lang: en
 ---
-Creating Tone hasn't been made in one go. Because multiple programs needed to be created, a Github organization has been created. You can find it here:  [ToneAPI Github org][Github].
+Tone didn't just get created all in one go. Because multiple programs needed to be created, a Github organization has been created. You can find it here:  [ToneAPI Github org][Github].
 
 At the day I write this article, Tone is running on its second major version.
 ## V 1.0
-Tone was at first very simple. The project started almost from scatch, two months after Northstar released an update allowing mods to create HTTP requests from the game.
+Tone was at first very simple. The project started almost from scratch, two months after Northstar released an update allowing mods to create HTTP requests from the game.
 ![Northstar update announcement](/assets/images/Northstar%20HTTP%20announcement.png)
 
 To make it work, three programs were needed
@@ -29,7 +29,7 @@ It is created in [Vue][VueJS] and uses [Chart.js][ChartJS].
 ![Tone webclient screenshot][Tone_og]
 
 Because game servers are hosted by the community, anyone could upload fake data and manipulate statistics.
-To resolve this issue, an unique authentication token is given to each host. It is used to separate data by host. Thus, if someone decides to send falsify statistics, it will be possible to revoke their access and delete the faked data.
+To resolve this issue, an unique authentication token is given to each host. It is used to separate data by host. Thus, if someone decides to falsify statistics, it will be possible to revoke their access and delete the faked data.
 
 Tone saves each kill in the database. This decision has been made to allow more granularity over data analysis.
 This decision caused numerous performance problems by lack of optimization. Those problems will be partially explained in the next chapter of this article.
@@ -42,9 +42,9 @@ The following article represents the final architecture of the first version of 
 Tone's second version allowed us to tackle some scaling problems.
 
 Because Tone saves each kill in the database, the server had to go through every kill at each client request. 
-To resolve this, I opted to use a caching system that would prealably regroup data to reduce the temporal complexity linked to read all the data.
+To resolve this, I opted to use a caching system that would preliminarily regroup data to reduce the temporal complexity.
 
-The following diagram is an illustration of this process : the table on the left contains all kills entries, while the table on te right groups them by player and weapon.
+The following diagram is an illustration of this process : the table on the left contains all kills entries, while the table on the right groups them by player and weapon.
 ![Tone v2 diagram](/assets/images/tone-v2-caching.svg)
 
 Another caching layer is implemented inside the NodeJS process, allowing clients to fetch the player list in a flash.
@@ -54,15 +54,15 @@ All cached data is updated in realtime thanks to a [trigger][Postgres_trigger].
 This second version also corresponds to a change in the REST API used by game servers. A change was necessary to allow hosts to use only one token for all of their game server.
 
 ## V 3.0
-I have the chance to recieve help from two other Titanfall2 fans for this project. [Okvdai][Okvdai] and [Lars][Lars] are now members of the [Github organization][Github].
-They both develop clients that fetch statistics from Tone API : a Northstar client mod named [Pulse] and a discord bot named [Sonar] respectively.
+I've had the chance to recieve help from two other Titanfall2 fans for this project. [Okudai][Okvdai] and [Lars][Lars] are now members of the [Github organization][Github].
+They both develop clients that fetch statistics from Tone API : a Northstar client mod named [Pulse] and a Discord bot named [Sonar] respectively.
 
-The third iteration of Tone is still in the state of a design. However, it will address problems linked to the monolythic model of the database, and thus will allow saving data under multiple tables. This change is necessary to allow Tone to provide new statistics while partially mitigating performance problems.
+The third iteration of Tone is still in the design stage of development. It will address problems linked to the monolithic model and thus will allow saving data under multiple tables. This change is necessary to allow Tone to provide new statistics while partially mitigating performance problems.
 
 The following diagram is an example of a database model. It has been entirely created by Lars.
 ![Tone v3 diagram](/assets/images/Tone-v3-model.png)
 
-## Réferences
+## References
 - [Okvdai Github profile][Okvdai]
 - [Lars Github profile][Lars]
 - [Tone Github org](https://github.com/ToneAPI)

@@ -11,15 +11,15 @@ Before presenting it, here is a brief introduction of its context.
 ### Titanfall 2
 Titanfall 2 is a first person shooter released in 2016, developed by Respawn and published by EA.
 
-It has been subject of [multiple dramas][harmony-redtape] around 2020. During this period, game hacks and security flaws has been exploited during multiple months, making the game servers unplayable. 
+It has been subject of [multiple dramas][harmony-redtape] around 2020. During this period, game hacks and security flaws have been exploited during multiple months, making the game servers unplayable. 
 
 ### Northstar 
-[Northstar][northstar] is a community project that was born because of the inaccessibility of the official Titanfall2 servers. Northstar allows anyone to host their own game servers.
+[Northstar][northstar] is a community project that was born because of the inaccessibility of the official Titanfall 2 servers. Northstar allows anyone to host their own game servers.
 
 Today, Northstar hosts around 200 players in all community servers
 
 ### What is Tone ? 
-Because of its decentralized nature, Northstar doesn't implements saving statistics of the games.
+Because of its decentralized nature, Northstar doesn't implement saving statistics of the played matches.
 
 Tone aims to collect statistics from the games, allowing every player to visualize them.
 It is split into three major parts : 
@@ -29,7 +29,7 @@ It is split into three major parts :
 * Data display
 <object style="max-width:100%" data="{{site.baseurl}}/assets/images/diagram-tone-simple-en.svg" type="image/svg+xml" class="mailicon"></object>
 
-The project has been created the 15 march 2023. At the moment you read this article, more than <span id=toneKills>8</span> million `kills` have been recorded in the database.
+The project has been created on the 15 of March 2023. At the time of you reading this article, more than <span id=toneKills>8</span> million `kills` have been recorded in the database.
 
 <script type="application/javascript">
     window.addEventListener('DOMContentLoaded', async () => {
