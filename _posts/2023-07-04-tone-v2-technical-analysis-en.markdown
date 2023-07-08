@@ -5,7 +5,7 @@ permalink: /tone-technical/
 tags: data_analysis videogame_modding northstar titanfall_2 technical
 lang: en
 ---
-Tone didn't just get created all in one go. Because multiple programs needed to be created, a Github organization has been created. You can find it here:  [ToneAPI Github org][Github].
+Tone didn't just get made all in one go. Because multiple programs needed to be programmed, a Github organization has been created. You can find it here:  [ToneAPI Github org][Github].
 
 At the day I write this article, Tone is running on its second major version.
 ## V 1.0
