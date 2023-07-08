@@ -63,7 +63,7 @@ The following diagram is an example of a database model. It has been entirely cr
 ![Tone v3 diagram](/assets/images/Tone-v3-model.png)
 
 ## References
-- [Okvdai Github profile][Okvdai]
+- [Okudai Github profile][Okvdai]
 - [Lars Github profile][Lars]
 - [Tone Github org](https://github.com/ToneAPI)
 - [Northstar Github org](https://github.com/R2Northstar)
